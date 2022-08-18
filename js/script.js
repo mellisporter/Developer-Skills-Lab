@@ -1,6 +1,6 @@
 // alert(`Script is connected`)
 
-// Step 1: Declare Some Variables -- I am using vanilla JS because it makes more sense to me rn compared to jQuery.
+// Step 1: Declare Some Variables 
 
 // The btn variable represents the button that says 'Add Skill'
 

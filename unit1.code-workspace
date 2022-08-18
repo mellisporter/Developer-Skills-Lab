@@ -1,13 +1,7 @@
 {
-	"folders": [
-		{
-			"path": ".."
-		},
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "dev-skills-lab"
-	}
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
 }

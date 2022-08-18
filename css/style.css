@@ -8,7 +8,7 @@
 
 .outer {
     /* // shoutout to our clas notes on flex!! */
-    display: grid;
+    display: inline-flex;
     flex-direction: column;
     /* align-self: center;
     justify-self: center */
@@ -24,6 +24,20 @@
     transform: translate(-50%, -50%);
 }
 
+.inner {
+    display: inline-block;
+    width: 100%;
+}
+
+/* had some trouble getting the input and button to fill up the space in the line, so I honestly just typed different percents until it worked. */
+.add-skill {
+    width: 25%;
+}
+
+.input {
+    width: 65%;
+}
+
 h1 {
     background-color: #7FBEAB;
     color: white;
@@ -32,15 +46,15 @@ h1 {
 
 ul {
     color: orange;
-    padding-left: 20px;;
-    text-align: left;
+    padding-left: 40px;
+    align-self: flex-start;
 
 }
 
 input {
     border-style:solid;
     border-color: #7FBEAB;
-    margin: 10px;
+    margin: 5px;
 }
 
 
@@ -50,7 +64,7 @@ button {
     background-color: white;
     color: #7FBEAB;
     border: 2px solid #7FBEAB;
-    margin: 10px;
+    margin: 5px;
     width: auto;
 }
 
@@ -58,6 +72,5 @@ button {
     background-color: #ff595e;
     border-color: black;
     color: white;
-
 
 }

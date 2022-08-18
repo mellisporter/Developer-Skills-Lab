@@ -1,0 +1,63 @@
+/* I didn't go in-depth with my styling choices in my code since I think it is pretty straight forward, but I am happy to explain my code if needed */
+/* colors were found using coolors.com I wanted to stay true to the prompt but also like making those colors in more of a muted look */
+
+* {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.outer {
+    /* // shoutout to our clas notes on flex!! */
+    display: grid;
+    flex-direction: column;
+    /* align-self: center;
+    justify-self: center */
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+
+    /* not going to lie, I had to google how to dead center a full div. I found the following. After inputting the code, I figured out what it all meant. I would love to know an easier way to do this! */
+    position: absolute;
+    /* top and left 50% are saying that the div shifts 50% from the top and 50% to the left. When paired with the transform method, they move left and down, making the div in the center of the page. */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    background-color: #7FBEAB;
+    color: white;
+    padding: 5px;
+}
+
+ul {
+    color: orange;
+    padding-left: 20px;;
+    text-align: left;
+
+}
+
+input {
+    border-style:solid;
+    border-color: #7FBEAB;
+    margin: 10px;
+}
+
+
+button {
+    margin: 10;
+    padding: 10;
+    background-color: white;
+    color: #7FBEAB;
+    border: 2px solid #7FBEAB;
+    margin: 10px;
+    width: auto;
+}
+
+.delete {
+    background-color: #ff595e;
+    border-color: black;
+    color: white;
+
+
+}
